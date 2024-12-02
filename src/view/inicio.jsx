@@ -416,7 +416,7 @@ const PaseLista = () => {
       <Header />
       <header className="text-3xl font-bold text-gray-800 mt-12">Pase de Lista</header>
       <main className="bg-white p-6 rounded-lg shadow-lg w-full sm:max-w-md md:max-w-lg mt-8 text-center relative">
-        <p className="text-lg text-gray-600 mb-6">Escanear código</p>
+        <p className="text-2xl text-gray-600 mb-6">Escanear código</p>
 
         <button
           onClick={startScan}
