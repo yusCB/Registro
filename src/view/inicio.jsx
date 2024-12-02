@@ -420,7 +420,7 @@ const PaseLista = () => {
 
         <button
           onClick={startScan}
-          className="w-full bg-blue-500 text-white font-semibold py-3 rounded-lg mb-4 hover:bg-blue-600 transition duration-300"
+          className="w-full bg-red-500 text-white font-semibold py-3 rounded-lg mb-4 hover:bg-blue-600 transition duration-300"
           disabled={isScanning}
         >
           Escanear código
